@@ -1,5 +1,4 @@
 import React from 'react'
-import { useContext } from 'react'
 import { useWeather } from '../context/Weather'
 const Card = () => {
   const weather = useWeather()
